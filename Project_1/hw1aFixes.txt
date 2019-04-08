@@ -1,0 +1,3 @@
+The lookupByLastName function suffers from the same issues that any one of the look up methods have. A way around this
+would be to not declare the variable as global, so that users do not have access to these variables. Or to create classes
+where users create new instances of the variables to modify without altering the original variable.
